@@ -37,6 +37,17 @@ body {
     background-image: url(./1296374.F57077A04E27A9C8.jpeg);
 }
 
+.burger, #innerPage {
+    max-width: 80%;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .burger .item-image{
     background-repeat: no-repeat;
     width: 30rem;
@@ -50,17 +61,6 @@ body {
 }
 .burger .item-detail {
     min-height: 5rem;
-}
-.burger, #innerPage {
-    max-width: 80%;
-    background-color: aliceblue;
-    margin: auto;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn {

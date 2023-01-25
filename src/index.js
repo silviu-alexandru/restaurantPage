@@ -1,5 +1,6 @@
 import generateHome from "./home";
 import generateMenu from "./menu";
+import './style.css';
 console.log("starting...");
 
 const content = document.getElementById('content');
