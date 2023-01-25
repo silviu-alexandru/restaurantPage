@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'Lego' ;
+    src: url(./Legothick.ttf);
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(./wp2941161.jpg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+#content {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    min-width: 30rem;
+    max-width: 70vw;
+}
+.page {
+    /* background-color: aliceblue; */
+    background-color:rgb(253, 253, 253, 0.75) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#burgerOne .item-image {
+    background-image: url(./19d308c4-b1c1-4ace-83a3-caeae3de1cd1-resize-1600x900.png);
+}
+#burgerTwo .item-image {
+    background-image: url(./5f1559a3-a3ec-445d-b2e5-b1646889a8a9-resize-950x633.png);
+}
+#burgerThree .item-image {
+    background-image: url(./1296374.F57077A04E27A9C8.jpeg);
+}
+
+.burger .item-image{
+    background-repeat: no-repeat;
+    width: 30rem;
+    /* max-width: 50rem; */
+    min-height: 20rem;
+    max-height: 30rem;
+    /* max-width: 30rem; */
+    background-size: contain;
+    margin: auto;
+    padding: 1rem;
+}
+.burger .item-detail {
+    min-height: 5rem;
+}
+.burger, #innerPage {
+    max-width: 80%;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn {
+    background-color: red;
+    color: aliceblue;
+    font-family: 'Lego';
+    font-size: 3rem;
+    min-width: 10rem;
+    min-height: 5rem;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+#buttons {
+    padding: 2rem;
+}
+#homeImage {
+    background-image: url(./v4tHlXRKF2yeae7l8aLLK1yj19ZwS0eJPz2oLTgteCc-3207100060.jpeg);
+    background-repeat: no-repeat;
+    width: 30rem;
+    min-height: 20rem;
+    max-height: 30rem;
+    background-size: contain;
+    margin: auto;
+}
